@@ -3,8 +3,9 @@
     font-family: "BioRhyme";
     
 }
+ 
 
-section nav {
+.card nav {
     display: flex;
     flex-direction: column;
     
@@ -35,7 +36,7 @@ a {
     
 }
 
-header nav {
+nav {
     background-color: rgb(110, 112, 141);
     height: 2rem;
 }
