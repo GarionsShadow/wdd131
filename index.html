@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/base.css">
-    <script defer src="getdates.js"></script>
+    <script defer src="scripts/getdates.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundimantals - Garen Pabst</title>
@@ -24,10 +24,10 @@
         <section class="card">
             <h1>About me</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, nemo. Facere fuga nam harum aut odit sequi fugiat. Aliquid odio ex molestias incidunt adipisci neque sit impedit accusamus eum ut?</p>
-            <img name="placeholder" src="nothin" alt=" profile pic">
+            <img id="placeholder" src="nothin" alt=" profile pic">
             <article class="sidways">
                 <h3 class="mid">Eagle Mt, Utah</h3>
-                <img class="scene" name="placeholder" src="nothin" alt=" profile pic">
+                <img class="scene" id="placeholdr" src="nothin" alt=" profile pic">
                 <p>Eagle Mountain seems pretty generic, but it has some perks, mainly in the people here</p>
             </article>
         
@@ -44,8 +44,9 @@
     </main>
 
     <footer>
-        <p>&copy;<span id="currentyear"></span> Garen Pabst - Utah </p>
-        <p id="lastupdated">Last Modification: <span id="copyrightyear"></span></p>
+        <p>&copy;<span id="cyear"></span> Garen Pabst - Utah </p>
+        
+        <p id="lastupdated">Last Modification: <span id="lastu"></span></p>
     </footer>
 </body>
 </html>
