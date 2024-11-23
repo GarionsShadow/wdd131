@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaskas nature and facts</title>
+    <meta name="author" content="Garen Pabst - WDD131">
+    <meta name="description" content=" here we explore abstract facts about alaska!">
+    <script defer src="scripts/place.js"></script>
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+<body>
+    <header>
+        <h1>Alaska</h1>
+    </header>
+    <main>
+        
+        <picture>
+            <source media="(min-width:650px)" srcset="images/alaska-mountain.webp">
+            <img src="images/alaska-snow.jpg" alt="Alaska Snow">
+        </picture>
+
+        <div class="data">
+            <h2>Data</h2>
+                <p>Square Mi: 665,384</p>
+                <p>Population: 733,406</p>
+                <p>Capital: Juneau</p>
+                <p>Languages: Engpsh</p>
+                <p>Currency: US Dollar</p>
+                <p>Time Zone: UTC-9</p>
+                <p>Calling Code: +907</p>
+                <p>Internet TLD: .com</p>
+            
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <section class="symbol">⛅</section>
+            <p id="temp">Temperature: -18</p>
+            <p>Conditions: Snowy</p>   
+            <p>Wind: 7 mph</p>
+            <p>Wind Chill : <span id="windchill"></span> </p>    
+                 
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="cyear"></span> Garen Pabst - Utah. </p>
+        <p>Alaska</p>
+        <p id="lastupdated">Last Modification: <span id="lastu"></span></p>
+    </footer>
+
+</body>
+</html>
