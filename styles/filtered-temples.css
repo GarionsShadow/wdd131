@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+
+* {
+    font-family: "BioRhyme";
+}
+body {
+    background-color: rgb(225, 241, 255);
+}
+header {
+    margin: .1px;
+    background-color: rgb(18, 181, 181);
+    color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+}
+header h1 {
+    margin: .1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+}
+nav a:hover {
+    color: rgb(0, 255, 200);
+}
+header nav {
+    padding: 1%;
+    margin: .1px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.show {
+    visibility: hidden;
+    height: 0px;
+}
+header nav a {
+    color: rgb(0, 0, 0);
+    margin: .1px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+button {
+    background-color: rgb(18, 181, 181);
+    width: 4%;
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border: 0px;
+}
+
+
+section, main{
+    display: grid;
+    grid-template-columns: auto;
+}
+main h2 {
+    text-align: center;
+    grid-column: 1/4;
+}
+section figure {
+    font-size: small;
+}
+section div img {
+    width: 90%
+}
+
+
+footer {
+    background-color: rgb(18, 181, 181);
+}
+footer p {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
