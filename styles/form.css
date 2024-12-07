@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+
+
+
+body {
+    background-color: rgb(225, 241, 255);
+}
+
+h2 {
+    margin: 1rem auto 1rem auto;
+    padding: .5rem 3rem;
+    border: solid 1px rgb(7, 7, 214);
+    background-color: rgba(0, 108, 250, 0.288);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input[type="checkbox"] {
+    margin: 1rem auto 1rem .5rem;
+}
+
+
+input[type="text"], select, textarea {
+    display: block;
+    min-height: 44px;
+}
+
+.stars label input{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.stars  {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars label {
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 549;
+}
+
+fieldset {
+    border: solid 1px rgb(7, 7, 214);
+    background-color: rgba(0, 108, 250, 0.288);
+    padding-left: 1rem;
+}
+
+form input[type="submit"] {
+    margin: 1rem auto auto auto;
+    width: 30%;
+}
+
+select, input[type="date"], input[type="text"], textarea {
+    background-color: rgb(225, 241, 255);
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, input[type="text"] {
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: .4rem;
+}
+
+.rating {
+    margin-bottom: .4rem;
+}
+
+input[type="date"] {
+    min-height: 35px;
+    min-width: 40%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 108, 250, 0.288);
+    
+    margin-top: .4rem;
+}
+p {
+    margin: 0;
+}
+
+
