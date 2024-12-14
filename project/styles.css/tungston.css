@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+:root {
+    --prim: rgb(30, 32, 30);
+    --sec: rgba(165, 185, 159, 0.801);
+}
+
+
+body {
+   zoom: 1.20;
+    font-family: BioRhyme;
+    background-color: var(--prim);
+    color: var(--sec);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.primary {
+    background-color: rgb(105, 117, 101);
+    color: rgb(231, 231, 231);
+}
+
+.tpic {
+    width: 400px;
+}
+
+ header {
+    display: flex;
+    flex-direction: row;
+ }
+ header nav a{
+    color: var(--sec);
+    margin: auto 3%;
+    color: rgba(236, 223, 204, 0.733);
+    
+
+ }
+ header nav {
+    margin: 2%;
+    width: 50%;
+ }
+ h1 {
+    position: relative;
+    margin: auto;
+    color: rgb(236, 223, 204);
+ }
+
+ img {
+    float: right;
+    padding: 0 2% 0 2%;
+    max-width: 100%;
+ }
+ main {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    
+ }
+ h2 {
+    margin: 10%;
+    text-align: center;
+    color: rgba(236, 223, 204, 0.733);
+ }
+
+ .h2 {
+   position: absolute;
+   left: 0%;
+   top: 20%;
+ }
+
+ footer {
+    text-align: center;
+    
+ }
+  
+ p{
+    height: 100%;
+ }
+
+ section {
+    min-height: 245px;
+    
+ }
+ #ranfac {
+    position: relative;
+    left: 40%;
+    width: 25%;
+    min-width: 100px;
+    margin-bottom: 10%;
+    height: 44px;
+    background-color: var(--sec);
+    
+}
+ iframe {
+    display: block;
+    margin: 5% auto;
+    height: 20rem;
+    width: 30rem;
+ }
+
+ #factgen {
+   margin: 1% auto 10% auto;
+   max-width: 60%;
+ }
+
+ .review {
+   display: grid;
+   
+
+ }
+
+ iframe {
+   border: 0;
+ }
+
+
+ @media screen and (max-width: 600px){
+ img {
+    float: none;
+    max-width: 100%;
+    margin: auto auto 5% auto;
+    display: block;
+ }
+ header {
+    flex-direction: column;
+    
+ }
+    header nav {
+        max-width: none;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        left: auto;
+    }
+    p {
+        margin: auto 10%;
+    }
+    main {
+        max-width: 90%;
+    }
+ }

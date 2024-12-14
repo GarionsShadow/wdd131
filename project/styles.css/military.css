@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+:root {
+    --prim: rgb(30, 32, 30);
+    --sec: rgba(165, 185, 159, 0.801);
+}
+
+
+body {
+   zoom: 1.20;
+    font-family: BioRhyme;
+    background-color: var(--prim);
+    color: var(--sec);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.primary {
+    background-color: rgb(105, 117, 101);
+    color: rgb(231, 231, 231);
+}
+
+.tpic {
+    width: 400px;
+}
+
+ header {
+    display: flex;
+    flex-direction: row;
+ }
+ header nav a{
+    
+    margin: auto 3%;
+    color: rgba(236, 223, 204, 0.733);
+
+ }
+ header nav {
+    margin: 2%;
+    width: 50%;
+ }
+ h1 {
+    position: relative;
+    margin: auto;
+    color: rgb(236, 223, 204);
+ }
+
+ h2, h3{
+   color: rgba(236, 223, 204, 0.733);
+ }
+
+ img {
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    
+ }
+
+ main {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    
+ }
+
+ a {
+   margin: auto;
+   color: rgb(236, 223, 204);
+ }
+
+ #bun, input {
+   background-color: var(--sec);
+   
+ }
+
+ #button {
+   margin: 3% auto;
+   width: 120px;
+   height: 44px;
+ }
+form {
+   margin: auto;
+   text-align: center;
+}
+
+ label {
+   display: block;
+   margin: auto;
+
+ }
+
+ footer {
+    text-align: center;
+    margin-top: 5%;
+ }
+    
+ section {
+      text-align: center;
+      margin: 5% auto;
+ }
+
+
+
+ @media screen and (max-width: 600px){
+ img {
+    float: none;
+    max-width: 100%;
+    margin: auto auto 5% auto;
+    display: block;
+ }
+ header {
+    flex-direction: column;
+    
+ }
+    header nav {
+        max-width: none;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        left: auto;
+    }
+    p {
+        margin: auto 10%;
+    }
+    main {
+        max-width: 90%;
+    }
+ }
